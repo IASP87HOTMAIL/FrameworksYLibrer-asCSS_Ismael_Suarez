@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/11/2017, 06:55:19 AM
+    Author     : Ismael
+*/
+
+#logo svg{
+    display: block;
+    max-width: 150px;
+}
+
+#redes-sociales{
+}
+#redes-sociales>.row{
+    height: 100%;
+}
+#redes-sociales ul{
+    display: flex;
+    list-style: none;
+    margin: 4px 0 0 0;
+    padding: 0;
+    flex-flow: row wrap;
+}
+#redes-sociale >ul>li{
+    margin: 0 3px;
+}
+#redes-sociales ul>li>a{
+
+}
+#redes-sociales ul>li>a>img{
+    height: 40px;
+    -webkit-filter: brightness(80%);
+    filter:  brightness(80%);
+    transition-duration: 0.3s; 
+}
+#redes-sociales ul>li>a>img:hover{
+    -webkit-filter: brightness(100%);
+    filter:  brightness(100%);
+}
+
+
+#main-menu{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #03A9F4;
+}
+#main-menu ul li a{
+    color: #EEEEEE;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#main-menu ul li a:hover{
+    background: #29B6F6;
+}
+
+
+#contenido{
+
+}
+#contenido .articulo{
+    border-bottom: 1px solid #BBBBBB;
+}
+#contenido .articulo:nth-child(n+2){
+    margin-top: calc(1rem + 1px);
+}
+#contenido .articulo:last-child{
+    border-bottom: none;
+}
+#contenido .articulo .contenido-articulo{
+    text-align: justify;
+}
+#contenido .articulo .contenido-articulo img{
+    float: right;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+#contenido .articulo:nth-child(2n) .contenido-articulo img{
+    float: left;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+#contenido .articulo footer{
+    margin-top: 15px;
+}
+#contenido .articulo footer form .col-form-label{
+    text-align: center;
+}
+#contenido .articulo footer form .btn-send-comentario{
+    padding-right: calc(1rem + 1px);
+}
+#contenido .articulo footer form .btn-send-comentario button:hover{
+    cursor: pointer;
+}
+
+
+aside{
+    border-left: 1px solid #BBBBBB;
+}
+
+#form-buscador .form-group .input-group .input-group-addon{
+    font-size: 1.4em;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    #logo svg{
+        max-width: 100%;
+    }
+    #main-menu ul li{
+        text-align: center;
+        width: 100%;
+    }
+
+    #contenido .articulo .contenido-articulo{
+        display: flex;
+        flex-flow: column;
+    }
+    #contenido .articulo .contenido-articulo img{
+        margin: auto;
+        max-width: 90%;
+        order: 3;
+        width: 100%;
+    }
+    #contenido .articulo:nth-child(2n) .contenido-articulo img{
+        margin: auto;
+    }
+
+    #contenido .articulo .contenido-articulo h3{
+        order: 1;
+    }    
+    #contenido .articulo .contenido-articulo div{
+        order: 2;
+    }
+
+    #contenido .articulo:nth-child(2n) .contenido-articulo img{
+        margin: auto;
+        order: 2;
+    }
+    #contenido .articulo:nth-child(2n) .contenido-articulo h3{
+        order: 1;
+    }    
+    #contenido .articulo:nth-child(2n) .contenido-articulo div{
+        order: 3;
+    }
+    aside{
+        display: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    #logo svg{
+        max-width: 100%;
+    }
+    #main-menu ul li{
+        text-align: center;
+        width: 33.3%;
+    }
+
+    #contenido .articulo .contenido-articulo{
+        display: flex;
+        flex-flow: column;
+    }
+    #contenido .articulo .contenido-articulo img{
+        margin: auto;
+        max-width: 90%;
+        order: 3;
+        width: 100%;
+    }
+    #contenido .articulo .contenido-articulo h3{
+        order: 1;
+    }    
+    #contenido .articulo .contenido-articulo div{
+        order: 2;
+    }
+    aside{
+        display: none;
+    }
+
+    #contenido .articulo:nth-child(2n) .contenido-articulo img{
+        margin: auto;
+        order: 2;
+    }
+    #contenido .articulo:nth-child(2n) .contenido-articulo h3{
+        order: 1;
+    }    
+    #contenido .articulo:nth-child(2n) .contenido-articulo div{
+        order: 3;
+    }
+    aside{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    aside{
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

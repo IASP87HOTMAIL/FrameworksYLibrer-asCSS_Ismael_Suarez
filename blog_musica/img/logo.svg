@@ -1,0 +1,20 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="202" width="402" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="171" id="svg_2" y="147.99984" x="105.249847" stroke-width="0" stroke="#000" fill="#0000bf">A</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="171" id="svg_1" y="165.99984" x="71.249847" stroke-width="0" stroke="#000" fill="#000000">I</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="171" id="svg_7" y="147.99984" x="230.249847" stroke-width="0" stroke="#000" fill="#0000bf">P</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="171" id="svg_4" y="168.99984" x="170.249847" stroke-width="0" stroke="#000" fill="#000000">S</text>
+  <path id="svg_12" d="m107.865237,182.38444c-30.15383,-0.99999 -51.53845,-6.3077 -52.76922,-16.84615c-1.23077,-10.53845 4.76922,-19.23074 48.76922,-26.23074c44,-7 107.15384,-36.9231 143.15384,-37.9231c36,-1 102,8 106,-30c4,-38 -9.30766,-58.46154 -72.30766,-58.46154" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#0f0f00" fill="#000000"/>
+  <path id="svg_13" d="m101.343932,39.308687l-19.249343,0l-5.942021,-18.059267l-0.834337,2.523762l-5.114695,15.538967l-19.244084,-0.003462l15.568445,11.171716l-5.952538,18.071384l15.571951,-11.171716l15.575456,11.176909l-5.95429,-18.076577l15.575456,-11.171716zm-23.133566,15.270666l-2.05955,-1.476522l-2.05955,1.478253l-6.839459,4.905585l2.611685,-7.934792l0.788764,-2.392208l-2.063056,-1.479984l-6.835953,-4.905585l10.998873,0l0.788764,-2.390477l2.609932,-7.934792l2.609932,7.929599l0.787011,2.390477l11.00939,0l-6.84647,4.909047l-2.064808,1.478253l0.787011,2.39567l2.616943,7.934792l-6.839459,-4.907316z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#0f0f00" fill="#000000"/>
+  <path id="svg_14" d="m319.804834,138.539166l-19.24934,0l-5.94202,-18.05927l-0.83434,2.52376l-5.11469,15.53897l-19.24409,-0.00346l15.56845,11.17171l-5.95254,18.07139l15.57195,-11.17172l15.57546,11.17691l-5.95429,-18.07658l15.57545,-11.17171zm-23.13356,15.27066l-2.05955,-1.47652l-2.05955,1.47825l-6.83946,4.90559l2.61168,-7.93479l0.78877,-2.39221l-2.06306,-1.47999l-6.83595,-4.90558l10.99887,0l0.78877,-2.39048l2.60993,-7.93479l2.60993,7.9296l0.78701,2.39048l11.00939,0l-6.84647,4.90904l-2.06481,1.47826l0.78701,2.39567l2.61695,7.93479l-6.83946,-4.90732z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#0f0f00" fill="#000000"/>
+ </g>
+</svg>
