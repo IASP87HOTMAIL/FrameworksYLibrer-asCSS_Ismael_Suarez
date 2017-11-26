@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/11/2017, 04:25:09 PM
+    Author     : Ismael
+*/
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 50%;
+    background-position-y: 50px;
+}
+body>div{
+}
+header.header{
+    margin-bottom: 0;
+}
+header.header nav{
+    position: relative;
+}
+header.header nav img.brand-logo{
+    max-width: 120px;
+    display: block;
+}
+div.container2{
+    padding-top: 10px;
+    position: relative;
+}
+
+div.container2 .social{
+    position: absolute;
+    width: 50px;
+}
+div.container2 .social ul li a img{
+    width: 50px;
+    -webkit-filter: brightness(80%);
+    filter:  brightness(80%);
+    transition-duration: 0.3s; 
+}
+
+div.container2 .social ul li a img:hover{
+    -webkit-filter: brightness(100%);
+    filter:  brightness(100%);
+}
+div.container2 .sec-images img{
+    width: 100%;
+}
+
+
+.content{
+
+}
+.content section .articulo img{
+    float: left;
+}
+form .input-field .prefix.active{
+    color: #DDDDDD;
+}
+
+@media only screen and (max-width: 600px) {
+    header.header nav{
+        box-shadow: none;
+    }
+    header.header nav img.brand-logo{
+        display: block;
+        left: 0;
+        margin-top: 10px;
+        max-width: 120px;
+        position: relative;
+        -webkit-transform:  translateX(0);
+        transform: translateX(0);
+    }
+    .content section .articulo img{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+    header.header nav img.brand-logo{
+        display: block;
+        left: 0;
+        margin-top: 10px;
+        max-width: 120px;
+        position: relative;
+        -webkit-transform:  translateX(0);
+        transform: translateX(0);
+    }
+
+    .container2 .slogan{
+        left: 140px;
+        position: absolute;
+        top: -45px;
+    }
+
+    .content section .articulo img{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    div.container2 .sec-images{
+        padding-left: 60px;
+    }
+
+    .content section .articulo img{
+        float: left;
+        margin-right: 10px;
+        width: 220px;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+}
